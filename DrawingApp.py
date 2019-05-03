@@ -38,8 +38,11 @@ def main():
                 last_pos = e.pos
             pygame.display.flip()
 
+           # pygame.transform.scale(screen,(28,28))
+
             new_array = []
             arr2d = surfarray.array2d(screen)
+
             for arr in arr2d:
                 for integer in arr:
                     #if(integer == -256):
